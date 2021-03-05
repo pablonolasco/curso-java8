@@ -22,8 +22,10 @@ public class Cadenas {
         String paterno="Nolasco";
         String materno="Castro";
         
-        System.out.println(nombre+" "+" "+paterno+" "+materno);
+        double precio=40.80;
         
+        System.out.println(nombre+" "+" "+paterno+" "+materno);
+        System.out.println("El precio es "+precio);
     }
     
 }
