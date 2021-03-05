@@ -26,6 +26,22 @@ public class Cadenas {
         
         System.out.println(nombre+" "+" "+paterno+" "+materno);
         System.out.println("El precio es "+precio);
+        
+        /*
+        \n nueva linea
+        \t tabulacion
+        \r retorno de carro
+        \" dobles comillas
+        \\ backslash
+        */
+        String caracteresEspeciales;
+        caracteresEspeciales="Codigo JSP\nPrecio: $50.00";
+        caracteresEspeciales="Codigo:\tJSP\r\nPrecio:\t$50.00";
+        caracteresEspeciales="presionar \"x\" para salir";
+        caracteresEspeciales="c:\\java\\ejercicios";
+        System.out.println(caracteresEspeciales);
+        
+        
     }
     
 }

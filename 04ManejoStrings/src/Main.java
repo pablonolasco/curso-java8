@@ -11,6 +11,8 @@
 public class Main {
     public static void main(String[] args) {
         Cadenas cadenas= new Cadenas();
-        cadenas.mostrarCadenas();
+        //cadenas.mostrarCadenas();
+        CompararCadenas compararCadenas=new CompararCadenas();
+        compararCadenas.comparandoStrings();
     }
 }
