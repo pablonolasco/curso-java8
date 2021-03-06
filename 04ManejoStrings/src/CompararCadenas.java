@@ -57,7 +57,7 @@ public class CompararCadenas {
         // Obtener caracter
         char caracter=miCadena.charAt(2);
         
-        System.out.println("El caracter es: "+caracter);
+        System.out.println("El caracter es: "+caracter); 
         
         // Limpiar cadena
         String cadenaEspacio="          Esta es una cadena con espacio                    ";
