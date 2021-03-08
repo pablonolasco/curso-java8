@@ -11,7 +11,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        metodoIf();
+        //metodoIf();
+        metodoSwitch();
     }
 
     public static void metodoIf() {
@@ -32,7 +33,7 @@ public class Main {
         String nombre1 = "abc", nombre2 = "abc";
         // compara referencia
         //if (nombre1 == nombre2) {
-        if(nombre1.equalsIgnoreCase(nombre2)){
+        if (nombre1.equalsIgnoreCase(nombre2)) {
             System.out.println("Compara valor son iguales");
         } else {
             System.out.println("Compara valor no son iguales");
@@ -40,6 +41,28 @@ public class Main {
     }
 
     public static void metodoSwitch() {
+        int dia = 1;
+        switch (dia) {
+            case 1:
+            case 2:
+                System.out.println("Dia de la semana");
+                break;
+            default:
+                System.out.println("Opcion incorrecta");
+                break;
+        }
+
+        String mes = "enero";
+
+        switch (mes) {
+            case "enero":
+                System.out.println("mes 1 del año");
+                break;
+            default:
+                System.out.println("Opcion incorrecta");
+                break;
+
+        }
 
     }
 }
