@@ -22,5 +22,31 @@ public class Operadores {
         
         if(a != b)
             System.out.println("a es distinto o diferente c");
+        operador();
+    }
+    
+    public static void operador(){
+        String nombre="Pablo";
+        int edad=18;
+        
+        // And
+        if (nombre.equalsIgnoreCase("pablo") && edad==18) {
+            System.out.println("Correcto and");
+        }else{
+            System.out.println("Incorrecto and");
+        }
+        
+        // Or
+        if (nombre.equalsIgnoreCase("pablo") || edad==18) {
+            System.out.println("Correcto or");
+        }else{
+            System.out.println("Incorrecto or");
+        }
+        
+        if(!true){
+            System.out.println("Es cierto");
+        }else{
+            System.out.println("Es falso");
+        }
     }
 }
