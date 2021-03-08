@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         //metodoIf();
-        metodoSwitch();
+        metodowhile();
     }
 
     public static void metodoIf() {
@@ -64,5 +64,29 @@ public class Main {
 
         }
 
+    }
+
+    public static void metodofor() {
+        int numero=2;
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(2+"*"+i+"="+(i*numero));
+            if(i%numero==0){
+                System.out.println("Numero "+i+" par");
+             
+            }
+        }
+
+    }
+    
+    public static void metodowhile(){
+        int [] calificacion={9,8,8,10,9};
+        int contador=0;
+        double promedio=0;
+        while (contador<calificacion.length) {            
+            promedio+=calificacion[contador];
+            System.out.println(calificacion[contador]);
+            contador++;
+        }
+        System.out.println("promedio "+(promedio/calificacion.length));
     }
 }
