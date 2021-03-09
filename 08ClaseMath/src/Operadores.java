@@ -11,7 +11,7 @@
 public class Operadores {
     public static void main(String[] args) {
         // Documentacion https://docs.oracle.com/javase/8/docs/api/
-        metodoredondeo();
+        metodopotencia();
         
     }
     
@@ -48,6 +48,8 @@ public class Operadores {
         System.out.println("redondeo hacia abajo "+Math.floor(numero));
     }
     
-    
+    public static void metodopotencia(){
+        System.out.println("El numero "+4+" elevado a la "+10+" es "+Math.pow(4, 10));
+    }
     
 }
