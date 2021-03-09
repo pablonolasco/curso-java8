@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         //metodoIf();
-        metodobreak();
+        metodocontinue();
     }
 
     public static void metodoIf() {
@@ -118,5 +118,21 @@ public class Main {
             }
         }
         
+    }
+    
+    public static void metodocontinue(){
+        String frase="Esta es otra frase";
+        int letra=0;
+            
+        for (int i = 0; i < frase.length(); i++) {
+            char caracter=frase.charAt(i);
+            if (caracter=='a') {
+                letra++;
+                continue;
+            }
+            System.out.println(caracter);
+        }
+        
+        System.out.println("La letra a se repite "+letra);
     }
 }
