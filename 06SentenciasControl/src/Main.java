@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         //metodoIf();
-        metodofor();
+        metodobreak();
     }
 
     public static void metodoIf() {
@@ -94,5 +94,29 @@ public class Main {
             contador++;
         }
         System.out.println("promedio " + (promedio / calificacion.length));
+    }
+    
+    public static void metododowhile(){
+        int i=0;
+        do{
+            if (i%2==0) {
+            System.out.println(i);
+                
+            }
+            i++;
+        }while(i<=100);
+    }
+    
+    public static void metodobreak(){
+        String frase="Esta frase ayuda";
+        for (int i = 0; i < frase.length(); i++) {
+            char caracter=frase.charAt(i);
+            System.out.println(caracter);
+            if (caracter == 'd') {
+                System.out.println("Letra encontrada");
+                break;
+            }
+        }
+        
     }
 }
